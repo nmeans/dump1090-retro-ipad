@@ -44,7 +44,7 @@ elif [[ -f /run/dump1090-mutability/aircraft.json ]]; then
     srcdir=/run/dump1090-mutability/
 fi
 
-sed -i -e "s?SRCDIR?$srcdir?g" /etc/lighttpd/conf-available/88-dump1090-retro-html.conf
+sed -i -e "s?SRCDIR?$srcdir?g" /etc/lighttpd/conf-available/88-dump1090-retro-ipad.conf
 
 systemctl restart lighttpd
 
