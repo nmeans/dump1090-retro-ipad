@@ -5,7 +5,7 @@ Old dump1090 webinterface for dump1090-fa
 ## Installation
 
 ```
-sudo bash -c "$(wget -q -O - https://raw.githubusercontent.com/wiedehopf/dump1090-retro-html/master/install.sh)"
+sudo bash -c "$(wget -q -O - https://raw.githubusercontent.com/nmeans/dump1090-retro-ipad/master/install.sh)"
 ```
 
 ## URL for the webinterface
@@ -17,9 +17,5 @@ http://IP-ADDRESS/dump1090 (replace IP-ADDRESS with the actuall IP address)
 ## Uninstall
 
 ```
-sudo bash -c "$(wget -q -O - https://raw.githubusercontent.com/wiedehopf/dump1090-retro-html/master/uninstall.sh)"
+sudo bash -c "$(wget -q -O - https://raw.githubusercontent.com/nmeans/dump1090-retro-ipad/master/uninstall.sh)"
 ```
-
-## Screenshot
-
-![Screenshot](https://raw.githubusercontent.com/wiedehopf/adsb-wiki/images/screenshots/dump1090-fa-retro.png)
